@@ -14,7 +14,7 @@ class PitaModel():
 
                     for row in resultset:
                         pita=Pita(row [0], row[1], row[2], row[3])
-                        pitas.append(pita)
+                        pitas.append(pita.to_JSON())
 
             connection.close()
             return pitas
