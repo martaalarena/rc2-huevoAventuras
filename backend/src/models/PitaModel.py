@@ -13,7 +13,7 @@ class PitaModel():
                     resultset=cursor.fetchall()
 
                     for row in resultset:
-                        pita=Pita(row [0], row[1], row[2], row[3])
+                        pita=Pita(row [0], row[1], row[2], row[3], row[4])
                         pitas.append(pita.to_JSON())
 
             connection.close()
