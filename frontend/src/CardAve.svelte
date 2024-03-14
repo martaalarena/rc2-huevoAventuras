@@ -12,20 +12,25 @@
 
 <style>
     .card {
+        
         width: 150px;
         height: 250px;
         background-color: beige;
+        
     }
     img {
         width: 150px;
-        height: 150px
+        height: 150px;
+        border-radius: 10px;
     }
     .description {
         text-align: center;
         font-family: "Nunito", sans-serif;
-    font-size: 8px;
+        font-size: 7px;
     }
     .opction {
         display: flex;
+      
+
     }
 </style>

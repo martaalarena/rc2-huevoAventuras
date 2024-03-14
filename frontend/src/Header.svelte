@@ -29,18 +29,18 @@
   .header li a {
     padding: 10px; /* Ajusta el valor según tu diseño */
   }
-  .header a {
+ a {
     text-decoration: none;
     color: #391e6f;
   }
-  .header button {
+   button {
     background-color: #391e6f; /* Ajusta el color de fondo */
     color: white; /* Ajusta el color del texto */
     border: none; /* Elimina el borde del botón */
     padding: 10px 20px;
     border-radius: 10px;
   }
-  .header img {
+  img {
     width: 100px; /* Ajusta el ancho según sea necesario */
     height: auto; /* Mantener la relación de aspecto */
     margin-right: 10px;
