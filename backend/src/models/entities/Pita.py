@@ -6,4 +6,14 @@ class Pita():
         self.category = category
         self.description = description
         self.status = status
-        self.pictur_url = picture_url
+        self.picture_url = picture_url
+
+    def to_JSON(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'category': self.category,
+            'description': self.description,
+            'status' : self.status,
+            'picture_url' : self.picture_url
+    }
