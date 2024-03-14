@@ -5,8 +5,8 @@
 <div class="header">
   <img src={LOGO} alt="Logo" />
   <ul>
-    <li><a href="#">Alquileres</a></li>
-    <li><a href="#">Pita Paseo</a></li>
+    <li><a href="./routes/pageAlquilerInfo.svelte">Alquileres</a></li>
+    <li><a href="./routes/pagePitaPaseosInfo.svelte">Pita Paseo</a></li>
     <li><button>Tus Pitas</button></li>
   </ul>
 </div>
@@ -18,9 +18,9 @@
     padding: 10px;
     align-items: center;
     display: flex;
-    justify-content: flex-end;
+    
   }
-  .header ul {
+ ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;

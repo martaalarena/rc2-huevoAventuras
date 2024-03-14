@@ -15,7 +15,8 @@
         
         width: 150px;
         height: 250px;
-        background-color: beige;
+        
+        
         
     }
     img {
@@ -30,6 +31,12 @@
     }
     .opction {
         display: flex;
+       justify-content: center;
+        background-color:#5DF19B ;
+        border-radius: 5px;
+        border: none; /* Elimina el borde del botón */
+        padding: 5px 10px;
+        margin: 10px ;
       
 
     }
