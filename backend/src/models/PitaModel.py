@@ -20,3 +20,22 @@ class PitaModel():
             return pitas
         except Exception as ex:
             raise Exception(ex)
+        
+    @classmethod
+    def get_pita(self, id):
+        try:
+            connection=get_connection()
+
+            with connection.cursor() as cursor:
+                    cursor.execute("SELECT id, name, description, status, picture_url FROM pitas WHERE id= %s", (id,))
+                    row=cursor.fetchone()
+
+                    pita=None
+                    if row != None:
+                        pita=Pita(row [0], row[1], row[2], row[3], row[4])
+                        pita=pita.to_JSON()
+
+            connection.close()
+            return pita
+        except Exception as ex:
+            raise Exception(ex)
