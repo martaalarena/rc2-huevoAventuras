@@ -1,11 +1,11 @@
 <script>
     import Header from '../../Header.svelte';
     import Footer from '../../Footer.svelte';
-    import BodyPita from '../../BodyPita.svelte';
+    import BodyPitaPaseo from '../../BodyPitaPaseo.svelte';
   </script>
 
 <Header />
-
+<BodyPitaPaseo />
 <Footer />
 
 <main>

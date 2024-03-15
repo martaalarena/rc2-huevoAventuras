@@ -4,7 +4,7 @@
     import Footer from '../Footer.svelte';
     import Banner from '../Banner.svelte';
     import Body from '../Body.svelte';
-    import BodyPita from '../BodyPita.svelte';
+    
     
   </script>
   

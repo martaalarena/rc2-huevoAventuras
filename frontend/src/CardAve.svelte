@@ -12,8 +12,8 @@
       praesentium quaerat ipsa perspiciatis! Quo a ducimus facilis
     </p>
   </div>
-  <a href="/pitaopcion">
-    <button class="opction">TE ELIJO A TI</button>
+  <a href="/pitaoption">
+    <button class="option">TE ELIJO A TI</button>
   </a>
 </div>
 
@@ -32,7 +32,7 @@
     font-family: "Nunito", sans-serif;
     font-size: 7px;
   }
-  .opction {
+  .option {
     display: flex;
     justify-content: center;
     background-color: #5df19b;

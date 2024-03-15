@@ -2,7 +2,8 @@
   import LOGO from "./Logo.png";</script>
 
 <div class="header">
-  <img src={LOGO} alt="Logo" />
+  <a href="/home">    <img src={LOGO} alt="Logo" />
+  </a>
   <ul>
     <li><a href="/alquilerinfo">Alquileres</a></li>
     <li><a href="/pitapaseoinfo">Pita Paseo</a></li>

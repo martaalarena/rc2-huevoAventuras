@@ -5,7 +5,7 @@
   </script>
 
 <Header />
-
+<BodyAlquiler />
 <Footer />
 
 <main>
