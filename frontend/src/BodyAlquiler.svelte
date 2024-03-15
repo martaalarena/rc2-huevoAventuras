@@ -18,7 +18,7 @@
     <div class="contentopciones">
       <div class="formularioalquiler">
         <h2 class="titulo">Escoge tus opciones de ALQUILER:</h2>
-        <form class="content-form">
+        <form class="content-form" method="post" action="/api/pitas">
           <label>Día de recogida:</label>
           <input type="text"  />
           <label>Día de devolución:</label>

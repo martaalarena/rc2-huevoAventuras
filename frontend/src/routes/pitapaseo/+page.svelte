@@ -5,7 +5,7 @@
   </script>
 
 <Header />
-<BodyPita />
+
 <Footer />
 
 <main>

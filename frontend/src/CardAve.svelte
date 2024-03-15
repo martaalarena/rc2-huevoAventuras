@@ -1,6 +1,5 @@
 <script>
   import D3G from "./D3G.jpeg";
-  import { navigate } from "svelte-router";
 </script>
 
 <div class="card">
@@ -13,9 +12,9 @@
       praesentium quaerat ipsa perspiciatis! Quo a ducimus facilis
     </p>
   </div>
-  <button class="opction" on:click={() => navigate("/pitapaseo")}
-    >TE ELIJO A TI</button
-  >
+  <a href="/pitaopcion">
+    <button class="opction">TE ELIJO A TI</button>
+  </a>
 </div>
 
 <style>

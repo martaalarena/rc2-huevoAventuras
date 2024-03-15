@@ -19,11 +19,15 @@
     <div class="contentopciones">
       <div class="alquiler">
         <img class="pollitoalquiler" src={POLLITOALQUILER} alt="" />
-        <button>Alquiler</button>
+        <a href="/alquiler">
+          <button>Alquiler</button>
+        </a>
       </div>
       <div class="pitapaseo">
         <img class="pollitopaseo" src={POLLITOPITAPASEO} alt="" />
+       <a href="/pitapaseo">
         <button>PitaPaseo</button>
+      </a> 
       </div>
     </div>
   </div>

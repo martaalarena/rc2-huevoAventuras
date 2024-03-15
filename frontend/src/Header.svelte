@@ -1,18 +1,14 @@
 <script>
-  import LOGO from "./Logo.png";
-  
+  import LOGO from "./Logo.png";</script>
 
-  
-</script>
-
-  <div class="header">
-    <img src={LOGO} alt="Logo" />
-    <ul>
-      <li><a href="/alquiler">Alquileres</a></li>
-      <li><a href="/pitapaseo">Pita Paseo</a></li>
-      <li><button>Tus Pitas</button></li>
-    </ul>
-  </div>
+<div class="header">
+  <img src={LOGO} alt="Logo" />
+  <ul>
+    <li><a href="/alquiler">Alquileres</a></li>
+    <li><a href="/pitapaseo">Pita Paseo</a></li>
+    <li><button>Tus Pitas</button></li>
+  </ul>
+</div>
 
 <style>
   .header {
@@ -21,9 +17,8 @@
     padding: 10px;
     align-items: center;
     display: flex;
-    
   }
- ul {
+  ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -32,20 +27,20 @@
   .header li a {
     padding: 10px; /* Ajusta el valor según tu diseño */
   }
- a {
+  a {
     text-decoration: none;
     color: #391e6f;
   }
-   button {
-    background-color: #391e6f; 
-    color: white; 
-    border: none; 
+  button {
+    background-color: #391e6f;
+    color: white;
+    border: none;
     padding: 10px 20px;
     border-radius: 10px;
   }
   img {
-    width: 100px; 
-    height: auto; 
+    width: 100px;
+    height: auto;
     margin-right: 10px;
     justify-content: start;
   }
