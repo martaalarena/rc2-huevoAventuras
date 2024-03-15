@@ -8,7 +8,7 @@
 
 <style>
     img {
-        height: 330px;
+        height: 250px;
         width: 1920px;
     }
 </style>

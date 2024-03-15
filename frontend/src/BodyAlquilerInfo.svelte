@@ -4,8 +4,14 @@
 
 <div class="content-info">
   <div class="info">
-    <h2>hola</h2>
-    <p>NND,G,DMF</p>
+    <h2>¡Pon una pita en tu vida!</h2>
+    <p>
+      Disfruta del primer servicio web de alquiler de pitas en España. Nuestras
+      gallinas sabrán cómo animar tu fiesta, entretener a los niños, hacer de tu
+      cita un éxito... Multiplica los likes en tus redes sociales con nuestra
+      selección de tiernos pollitos o escoge una de nuestras gallinas de razas
+      increíbles para combinar con tus mejores looks.
+    </p>
   </div>
   <img src={GALLINAS} alt="" />
 </div>
@@ -15,11 +21,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
   }
   .info {
-    height:350px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    text-align: justify;
+    margin: 20px;
+    font-size: 20px;
+    font-family:"Nunito", sans-serif; ;
+   
   }
   img {
     justify-content: end;
