@@ -1,5 +1,5 @@
 <script>
-  import GALLINAS from "./Mask group.png";
+  import GALLINAPASEO from "./Mask group-2.png";
 </script>
 
 <div class="content-info">
@@ -13,7 +13,7 @@
       increíbles para combinar con tus mejores looks.
     </p>
   </div>
-  <img src={GALLINAS} alt="" />
+  <img src={GALLINAPASEO} alt="" />
 </div>
 
 <style>
