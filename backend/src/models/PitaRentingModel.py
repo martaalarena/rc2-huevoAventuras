@@ -1,7 +1,8 @@
 from database.db import get_connection
-from .entities.PitaRenting import PitaRenting
-@classmethod
-def add_pita(self, pitaRenting):
+
+class PitaRentingModel():
+    @classmethod
+    def add_pita(self, pitaRenting):
         try:
             connection=get_connection()
 

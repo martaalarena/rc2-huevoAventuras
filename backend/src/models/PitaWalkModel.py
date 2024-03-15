@@ -1,7 +1,9 @@
 from database.db import get_connection
 from .entities.PitaWalk import PitaWalk
-@classmethod
-def add_pitaWalk(self, pitaWalk):
+
+class PitaWalkModel():
+    @classmethod
+    def add_pitaWalk(self, pitaWalk):
         try:
             connection=get_connection()
 
