@@ -4,8 +4,8 @@
 <div class="header">
   <img src={LOGO} alt="Logo" />
   <ul>
-    <li><a href="/alquiler">Alquileres</a></li>
-    <li><a href="/pitapaseo">Pita Paseo</a></li>
+    <li><a href="/alquilerinfo">Alquileres</a></li>
+    <li><a href="/pitapaseoinfo">Pita Paseo</a></li>
     <li><button>Tus Pitas</button></li>
   </ul>
 </div>
