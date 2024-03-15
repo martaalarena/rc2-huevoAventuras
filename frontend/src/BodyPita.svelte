@@ -1,6 +1,7 @@
 <script>
   import POLLITOALQUILER from "./pollo-alquiler.png";
   import POLLITOPITAPASEO from "./pollo-pitapaseo.png";
+  import D3G from "./D3G.jpeg";
 </script>
 
 <div class="content">
@@ -8,7 +9,7 @@
 
   <div class="subcontent">
     <div class="infopita">
-      <img src="" alt="pita" />
+      <img src={D3G} alt="pita" />
       <h3>Nombre de la Pita</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
