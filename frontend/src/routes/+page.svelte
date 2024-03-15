@@ -8,11 +8,9 @@
     
   </script>
   
-  
+  <Header />
   <Banner />
   <Body />
-  <Header />
-  <BodyPita />
   <Footer />
   
   <main>
