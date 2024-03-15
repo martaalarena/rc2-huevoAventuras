@@ -1,5 +1,9 @@
+<script>
+    import D3G from "./D3G.jpeg";
+  </script>
+
 <div class="card">
-    <img src="">
+    <img src={D3G} alt="Banner" />
     <div class="description">
         <h2>Nombre Pita</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing 
@@ -31,7 +35,7 @@
     }
     .opction {
         display: flex;
-       justify-content: center;
+        justify-content: center;
         background-color:#5DF19B ;
         border-radius: 5px;
         border: none; /* Elimina el borde del botón */

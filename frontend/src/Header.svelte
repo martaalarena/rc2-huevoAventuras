@@ -1,15 +1,18 @@
 <script>
   import LOGO from "./Logo.png";
+  import AlquiInfo from "./pageAlquilerInfo.svelte"
+
+  
 </script>
 
-<div class="header">
-  <img src={LOGO} alt="Logo" />
-  <ul>
-    <li><a href="./routes/pageAlquilerInfo.svelte">Alquileres</a></li>
-    <li><a href="./routes/pagePitaPaseosInfo.svelte">Pita Paseo</a></li>
-    <li><button>Tus Pitas</button></li>
-  </ul>
-</div>
+  <div class="header">
+    <img src={LOGO} alt="Logo" />
+    <ul>
+      <li><a href="./pageAquilerInfo.svelte">Alquileres</a></li>
+      <li><a href="./pagePitaPaseosInfo.svelte">Pita Paseo</a></li>
+      <li><button>Tus Pitas</button></li>
+    </ul>
+  </div>
 
 <style>
   .header {
@@ -34,15 +37,15 @@
     color: #391e6f;
   }
    button {
-    background-color: #391e6f; /* Ajusta el color de fondo */
-    color: white; /* Ajusta el color del texto */
-    border: none; /* Elimina el borde del botón */
+    background-color: #391e6f; 
+    color: white; 
+    border: none; 
     padding: 10px 20px;
     border-radius: 10px;
   }
   img {
-    width: 100px; /* Ajusta el ancho según sea necesario */
-    height: auto; /* Mantener la relación de aspecto */
+    width: 100px; 
+    height: auto; 
     margin-right: 10px;
     justify-content: start;
   }

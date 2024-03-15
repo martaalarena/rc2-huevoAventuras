@@ -4,9 +4,9 @@
 
 <div class="menus">
   <div class="titulo">
-    <h2>Escoge tu COMPAÑERX DE huevoaventura:</h2>
+    <h2>Escoge tu COMPAÑERX de huevoaventura:</h2>
     <ul class="aves">
-      <li><a href="#"></a>Gallina</li>
+      <li><a href="#">Gallina</a></li>
       <li><a href="#">Gallos</a></li>
       <li><a href="#">Pollitos</a></li>
     </ul>
